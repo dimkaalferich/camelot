@@ -1,0 +1,213 @@
+// media for max-width 768px////////////////////////////////////////////////////
+@media (max-width: 991px) {
+    .header {
+
+        nav {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.459);
+            padding: 0;
+            margin: 0;
+        }
+
+        ul {
+            width: 100%;
+
+
+
+            padding: 0;
+            margin: 0;
+
+            li .links {
+
+                font-size: 15px;
+                line-height: 60px;
+
+                img {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+
+    .information__box {
+        font-size: 24px;
+    }
+
+    .application-area {
+        width: 70%;
+    }
+
+    //////////container/////////////////////////////////////////////////////
+
+    .container {
+        background-size: 75vh auto;
+        background-position: 150% 68px;
+
+        &__box {
+            width: 100%;
+        }
+    }
+
+    .description {
+        font-size: 18px;
+        margin-left: 20px;
+        width: 80%;
+    }
+h3 {
+    font-size: 34px;
+}
+    // products///////////////////////////////////////////
+    .product {
+        width: 369px;
+        padding-bottom: 0;
+        overflow: hidden;
+        // height: 200px;
+
+
+        &__text {
+            top: 40%;
+            width: 354px;
+            height: 94px;
+            font-size: 23px;
+            padding-right: 15px;
+        }
+
+        &__photo {
+            width: 369px;
+            height: 300px;
+        }
+
+        img {
+            width: 369px;
+        }
+
+        &:hover {
+            img {
+                width: 399px;
+                margin-left: -25px;
+                margin-top: -25px;
+            }
+        }
+    }
+
+    .products {
+        justify-content: space-around;
+
+        &__last-child {
+            transition: all .5s ease-in-out;
+            justify-content: center;
+
+        }
+    }
+
+    ////////////modal////////////////////////////////////////////
+    .booking-box {
+        margin: 0 20px;
+
+
+    }
+
+    // logistic/////////////////////////////////////////////
+
+    h2 {
+        padding: 53px 0;
+        font-size: 35px;
+    }
+
+    .logistic__box__photo {
+        flex: 1 1 410px;
+        margin-top: 15px;
+    }
+
+    .logistic__box__text {
+        flex: 1 1 300px;
+        padding-bottom: 30px;
+
+
+
+        ul {
+            margin-top: 0;
+            margin-left: 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    // ////////////////.............foter......./////////////////////////
+    .footer__box {
+        width: 95%;
+        margin: 0 auto;
+
+        h4 {
+            font-size: 18px;
+            line-height: 29px;
+            padding: 20px 0 30px;
+        }
+    }
+
+    .form__box {
+        flex: 1 1 418px;
+        font-size: 14px;
+
+        textarea {
+            height: 112px;
+            margin-bottom: 18px;
+        }
+    }
+
+    .sent {
+        height: 42px;
+        width: 42%;
+        margin: 0 26%;
+        font-size: 20px;
+    }
+
+    .communication {
+        flex: 1 1 250px;
+
+
+    }
+
+    .contacts {
+        height: 215px;
+
+        p {
+            margin-bottom: 0;
+            font-size: 16px;
+            line-height: 33px;
+
+            img {
+                width: 16px;
+                height: 16px;
+                padding-right: 5px;
+            }
+
+        }
+    }
+
+    .adress {
+        height: 123px;
+
+        p {
+            font-size: 16px;
+            line-height: 33px;
+        }
+    }
+
+    .input__text {
+        width: 82%;
+        height: 35px;
+    }
+
+    .camelot {
+        margin-top: 44px;
+        height: 90px;
+        line-height: 90px;
+    }
+
+
+
+}

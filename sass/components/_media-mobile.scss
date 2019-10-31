@@ -1,0 +1,272 @@
+@media (max-width: 575px) {
+    .header {
+        nav {
+            background: 0;
+        }
+
+
+        .menu {
+            display: block;
+            background-color: rgba(0, 0, 0, 0.785);
+
+
+            padding: 0;
+
+            //    justify-content: flex-end;
+            img {
+                padding-left: 84%;
+            }
+        }
+
+        ul {
+            padding-top: 30px;
+            flex-direction: column;
+            display: none;
+            background-color: rgba(0, 0, 0, 0.785);
+            padding-bottom: 350px;
+            width: 100vh;
+            position: fixed;
+            top: 0;
+            left: -320px;
+            z-index: 60;
+            transition: all .9s ease-out;
+
+            @keyframes menu {
+                from {
+                    left: -320px;
+                }
+                to {
+                    left: 0;
+                }
+            }
+
+            &:target {
+                display: block;
+                left: 0;
+
+                // left: 0px;
+                animation: menu .5s;
+            }
+
+            ul {
+                transition: all 3s ease-in-out;
+                
+            }
+
+            li {
+                margin: 15px 0 15px 20px;
+
+                .links {
+
+                    line-height: 10px;
+                    margin-left: 20px;
+                    font-size: 20px;
+                    height: 30px;
+                    font-weight: 500;
+                }
+
+                .ul-close {
+                    display: inline-block;
+                    margin-left: 36%;
+                    font-size: 30px;
+                   
+                    
+
+                    &:hover {
+                        border: none;
+                       
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    // //////////////////////////////////////////////////////////////
+    // /..............header.................................//
+    // //////////////////////////////////////////////////////////////////
+
+
+    .header__box {
+        width: 100%;
+    }
+
+    .logo__box {
+        max-width: 80%;
+
+        img {
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    .mobile-display-none {
+        display: none;
+    }
+
+    .information__box {
+        width: 85%;
+        font-size: 17px;
+        margin: 40px auto;
+        line-height: 30px;
+    }
+
+    .application-area {
+        display: none;
+    }
+
+    // ///////////////////////////////////////////////////////////////
+    //////...............container......................
+    ///////////////////////////////////////////////////////
+    .container {
+        background: 0;
+
+    }
+
+    .description p {
+        margin-bottom: 10px;
+        text-align: center;
+
+        &:last-child {
+            display: none;
+        }
+    }
+
+    h2 {
+        padding: 26px 0;
+        font-size: 33px;
+    }
+
+    // /////////////////////////////////////////////////////////////////////////
+    ///////////////////.........products.................................//////////
+    /////////////////////////////////////////////////////////////////////////////
+
+    .product {
+        width: 346px;
+        padding-bottom: 0;
+        overflow: hidden;
+        margin-left: 10px;
+        margin-right: 10px;
+        // height: 200px;
+
+
+        &__text {
+            top: 40%;
+            width: 290px;
+            height: 91px;
+            padding-right: 10px;
+            font-size: 19px;
+        }
+
+        &__photo {
+            width: 346px;
+            height: 300px;
+        }
+
+        img {
+            width: 346px;
+        }
+
+        &:hover {
+            img {
+                width: 376px;
+                margin-left: -25px;
+                margin-top: -25px;
+            }
+        }
+    }
+
+    .products {
+        justify-content: space-around;
+
+        &__last-child {
+            transition: all .5s ease-in-out;
+            justify-content: center;
+
+        }
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    // //////////////////////////////////////////////////////////////////////
+    //////...............bokking-box and modal-window..............//////////
+    /////////////////////////////////////////////////////////////////////
+    .modal-link {
+        width: 68%;
+    }
+
+    .modal__box {
+        max-width: 277px;
+        height: 370px;
+        margin: 22% auto;
+
+        h4 {
+            margin: 0 0 20px;
+        }
+
+        a {
+            margin-left: 90%;
+        }
+    }
+
+    .input__text {
+        width: 74%;
+        margin: 0 30px 14px;
+
+    }
+
+    .sent {
+        font-size: 18px;
+    }
+
+    // /////////////////////////////////////////////////////////////////////
+    ///////////.............logistic...........................//////////////
+    /////////////////////////////////////////////////////////////////////////
+
+    .logistic__box__photo {
+
+
+
+        img {
+            width: 280px;
+            padding: 0 20px;
+        }
+    }
+
+    .logistic__box__text ul {
+        margin-top: 15px;
+        margin-left: 9px;
+    }
+
+    // /////////////////////////////////////////////////////////////////////
+    ////////............foter................/////////////////////////////
+    ////////////////////////////////////////////////////////////////////
+    .form__box {
+        margin-right: 0;
+        margin-bottom: 20px;
+        box-shadow: none;
+
+        textarea {
+            margin-bottom: 10px;
+        }
+    }
+
+    .sent {
+        margin-bottom: 20px;
+    }
+
+    .adress,
+    .contacts {
+        box-shadow: none;
+    }
+
+    .camelot {
+        height: 70px;
+        line-height: 70px;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+}
